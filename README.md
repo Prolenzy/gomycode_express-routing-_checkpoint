@@ -65,7 +65,7 @@ Visit http://localhost:3000 in your browser.
 
 
 
-Usage
+## Usage
 
 Access the Home page: http://localhost:3000
 
@@ -74,7 +74,7 @@ Explore Our Services: http://localhost:3000/services
 Contact Us: http://localhost:3000/contact
 
 
-Customization
+## Customization
 
 Modify Pug templates in the views directory to update page content.
 
@@ -83,6 +83,6 @@ Customize styles in the public/styles directory.
 Adjust middleware or routes in app.js for specific requirements.
 
 
-License
+## License
 
 This project is licensed under the MIT License.
