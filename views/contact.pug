@@ -1,0 +1,26 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="/styles/main.css")
+    title Contact Us
+  body
+    nav
+      a(href="/") Home
+      a(href="/services") Our Services
+      a(href="/contact") Contact Us
+    h1 Contact Us
+    p Get in touch with us through the contact form. We'd love to hear from you!
+    form(action="/submit-contact", method="post")
+      label(for="name") Your Name:
+      input(type="text", name="name", required)
+      br
+      label(for="email") Your Email:
+      input(type="email", name="email", required)
+      br
+      label(for="message") Your Message:
+      textarea(name="message", rows="4", required)
+      br
+      button(type="submit") Submit
+
